@@ -46,7 +46,7 @@ set_target_properties(ffmpeg::postproc PROPERTIES
 
 add_library(ffmpeg::swscale SHARED IMPORTED GLOBAL)
 set_target_properties(ffmpeg::swscale PROPERTIES
-    IMPORTED_LOCATION "${CMAKE_CURRENT_SOURCE_DIR}/bin/swscale-7.dll"
+    IMPORTED_LOCATION "${CMAKE_CURRENT_SOURCE_DIR}/bin/swscale-8.dll"
     IMPORTED_IMPLIB "${CMAKE_CURRENT_SOURCE_DIR}/lib/swscale.lib"
     IMPORTED_LINK_INTERFACE_LANGUAGES "C"
     INTERFACE_INCLUDE_DIRECTORIES "${CMAKE_CURRENT_SOURCE_DIR}/include"
