@@ -70,3 +70,5 @@ set_target_properties(ffmpeg::avdevice PROPERTIES
     INTERFACE_INCLUDE_DIRECTORIES "${CMAKE_CURRENT_SOURCE_DIR}/include"
     INTERFACE_LINK_LIBRARIES "ffmpeg::avutil;ffmpeg::avcodec;ffmpeg::avformat;ffmpeg::avfilter"
 )
+
+include(${CMAKE_CURRENT_SOURCE_DIR}/cmake/ParseDependTargets.cmake)
